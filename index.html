@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Etchk a Sketch</title>
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+    <h1 id="title" class="center">Etch a Sketch</h1>
+    <div class="center bigGap">
+        <div id="grid"></div>
+        <div id="settings">
+            <h3>Settings</h3>
+            <div>
+                <input type="number" name="size" id="size" max="100" placeholder="Grid Size - max: 100">
+                <button id="submitButton">Submit</button>  
+            </div>
+            <br>
+            <div>
+                <label for="color-picker">Color: </label>
+                <input type="color" id="color-picker" value="#ff0000">
+            </div>
+            <br>
+            <div>
+                <label for="eraser">Erase:</label>
+                <input type="checkbox" id="eraser">
+            </div>
+            <br>
+            <div>
+                <label for="rainbow">Rainbow:</label>
+                <input type="checkbox" id="rainbow">
+            </div>
+            <br>
+            <button id="reset-button">RESET</button>
+        </div>
+    </div>
+</body>
+</html>
