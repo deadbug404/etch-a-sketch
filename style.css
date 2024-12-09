@@ -58,6 +58,7 @@ html,body{
     display: flex;
     background-color: white;
     flex-direction: column;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0px 2px 17px 4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 2px 17px 4px rgba(0,0,0,0.75);
@@ -94,15 +95,4 @@ html,body{
 
 #reset-button:hover{
     cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-    .center{
-        flex-direction: column;
-        height: 100%;
-        padding: 10px;
-    }
-    #grid{
-        width: 80vw;
-    }
 }
